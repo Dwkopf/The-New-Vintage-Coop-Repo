@@ -1,8 +1,17 @@
 
     body {
-        margin:30px;
+        margin:3em;
         background-image:url("../img/texture.png");// texture
-        font-size: 1.8em;
+        font-size: 1.4em;
+    }
+
+    .vcpt {
+        color:#8C8368;
+        font-weight: bolder;
+      }
+
+    .header {
+        display:none;
     }
 
       .centerList {
@@ -10,11 +19,15 @@
           list-style-type:none;
       }
 
+      ol {
+          margin-left: 3em;
+      }
+
       .pix img{
         border-radius: 30px;
         margin:2em 1em;
         padding:.5em .5em .5em 2.5em;
-        width:27%;
+        width:80%;
         box-shadow: 15px 15px 10px #aaaaaa;
         background-color: white;
       }
@@ -28,16 +41,17 @@
             padding:1em 2em;
             margin:1em;
             border-radius: 20px;
+            color:black;
         }
 
         h2 {
             text-align: center;
-            color: green;
+            color: #2B5E3F;
             font-weight: bolder;
         }
 
         h1 {
-            margin-left:1em;
+            margin-left:2em;
             color:#A69B7B;
             font-family:roboto;
             font-size: 4.0em;
@@ -62,18 +76,19 @@
 		 /* navbar styling */
 
     .navbar-brand {
-    margin-left: 10px;
+        margin-left: 1em;
 
-    img {
-        max-height: 120px;
-        position: relative;
-        top: -10px;
-        left: 20px;
-        }
+        img {  // logo
+            max-height: 14vw;
+            position: relative;
+            top: -1em;
+            left: 2em;
+            z-index: 3;
+            }
     }
 
     .nav-link {
-        margin-left: 30px;
+        margin-left: 2em;
         font-size: 1.1em;
         color: #000000;
     }
@@ -81,6 +96,8 @@
     .navbar-toggler-icon {
         background-color: lightgrey;
         color: black;
+        height: 3em;
+        width:3em;
     }
 
 
@@ -96,7 +113,38 @@
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
   }
+
+  #magnify {
+    position: fixed;
+    right: 3em;
+    top: 5em;
+    display:none;
+    z-index: 1;
+  }
+
   @media only screen and (min-width: 768px) {
     .glow:hover, .glow:focus, .glow:active {
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-  }}
+    }
+
+    .pix img{
+        border-radius: 30px;
+        margin:2em 1em;
+        padding:.5em .5em .5em 2.5em;
+        width:27%;
+        box-shadow: 15px 15px 10px #aaaaaa;
+        background-color: white;
+      }
+
+    .navbar-brand img {
+        max-height: 9vw;
+        margin-left: 0px;
+    }
+
+    .header {
+        display:block;
+    }
+        #magnify {
+            display:block;
+        }    
+    }
