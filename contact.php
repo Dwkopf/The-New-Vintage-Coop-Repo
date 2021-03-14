@@ -121,6 +121,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <link rel="stylesheet" type="text/css" href="css/vintage.css">
 
@@ -143,9 +144,9 @@
                 <a class="nav-item nav-link glow" href="index.html">HOME</a>
                 <a class="nav-item nav-link glow" href="coop.html">WHY CO-OPS?</a>
                 <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
-                <a class="nav-item nav-link glow" href="about.html">ABOUT US</a>
+                <a class="nav-item nav-link glow" href="about.html">FAQs</a>
                 <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
-                <a class="nav-item nav-link glow" href="contact.html">CONTACT US</a>
+                <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
             </div>
         </div>
     </nav>
