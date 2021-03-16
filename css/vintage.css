@@ -31,6 +31,29 @@ ol {
   background-color: white;
 }
 
+.testimonial {
+  position: relative;
+  bottom: 1em;
+  z-index: 1;
+  border-radius: 100px;
+}
+
+.scale {
+  width: 80%;
+}
+
+div.polaroid {
+  text-align: center;
+  width: auto;
+  margin: auto;
+  border-radius: 20px;
+  padding: 0em 1em 1em 1em;
+  border: 1px solid #BFBFBF;
+  background-color: #BFBBBA;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 0em 1em 3em 1em;
+}
+
 .main-container {
   width: 80vw;
   margin: auto;
@@ -109,12 +132,26 @@ ol {
   transition-property: box-shadow;
 }
 
+.bold {
+  font-weight: bolder;
+}
+
 #magnify {
   position: fixed;
   right: 3em;
   top: 5em;
   display: none;
   z-index: 1;
+}
+
+hr {
+  height: 4px;
+  color: black;
+  background-color: black;
+}
+hr + hr {
+  width: 80%;
+  margin-left: 10%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -124,8 +161,8 @@ ol {
   .pix img {
     border-radius: 30px;
     margin: 2em 1em;
-    padding: .5em .5em .5em 2.5em;
-    width: 27%;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    width: 25%;
     box-shadow: 15px 15px 10px #aaaaaa;
     background-color: white;
   }
