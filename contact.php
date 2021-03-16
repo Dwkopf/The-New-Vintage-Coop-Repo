@@ -310,6 +310,10 @@
 
         </form>
 
+        <h2 class="contact-head">Come find us for more information!</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.14834440132!2d-93.62032398426582!3d41.717317683438864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee85268e01fa69%3A0x31ab78b7b7ff3adf!2s1370%20SW%20Magazine%20Rd%2C%20Ankeny%2C%20IA%2050023!5e0!3m2!1sen!2sus!4v1615846891443!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
     </div>
     
 </body>

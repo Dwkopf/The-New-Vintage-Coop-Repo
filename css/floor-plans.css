@@ -48,6 +48,7 @@
 
 .floor-plan-display .floor-plan-title {
   text-transform: uppercase;
+  color: black;
   margin-bottom: 5rem;
   font-family: roboto;
   letter-spacing: 1px;
@@ -55,9 +56,10 @@
 
 .floor-plan-display .view-floor {
   margin-top: 5rem;
-  padding: 5px;
+  padding: 10px;
   font-family: roboto;
   letter-spacing: 1px;
+  background-color: white;
 }
 
 .floor-plan-display .unit-specs {
@@ -95,4 +97,19 @@ a {
   color: black;
   font-family: roboto;
   letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fp-description {
+    min-width: 100%;
+  }
+  .floor-plan-display {
+    min-width: 100%;
+  }
+  .floor-plan-display .floor-plan {
+    min-width: 100%;
+  }
+  .floor-plan-display .view-floor {
+    margin-top: 2rem;
+  }
 }
