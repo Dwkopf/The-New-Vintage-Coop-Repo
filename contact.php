@@ -316,6 +316,68 @@
 
         </form>
     </div>
+
+    <footer class="flex-footer">
+
+<div class="footer-nav">
+
+    <h1>Navigation</h1>
+
+    <div class="footer-nav-flex">
+
+        <div class="footer-nav-links">
+            <a class="nav-item nav-link glow" href="#">HOME</a>
+            <a class="nav-item nav-link glow" href="#">WHY CO-OPS?</a>
+            <a class="nav-item nav-link glow" href="#">THE NEIGHBORHOOD</a>
+           
+        </div>
+
+
+        <div class="footer-nav-links">
+          <a class="nav-item nav-link glow" href="#">ABOUT US</a>
+            <a class="nav-item nav-link glow" href="#">FLOOR PLANS</a>
+            <a class="nav-item nav-link glow" href="#">CONTACT US</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer-contact">
+    <img src="img/PrairieTrail.png">
+
+    <div class="contact-icons">
+        <a href="tel:+1-515-289-2530"><i class="fas fa-phone-alt"></i></a>
+        <a href="mailto: abc@example.com"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <div class="rights-reserved">
+        <p>Copyright &#169;</i>
+            <script>
+                let date = new Date(); 
+                document.write(date.getFullYear());
+           </script>   
+           Vintage Cooperative of Prairie Trail - All Rights Reserved
+        </p>
+    </div>
+</div>
+
+<div class="footer-information">
+    <h1>General Information</h1>
+
+    <h2>Hours</h2>
+
+    <p>Monday - Thurday: 8:30AM - 4PM</p>
+    <p>Friday - Sunday: Closed</p>
+
+    <h2>Contact Information</h2>
+    <p>Email: vintagecoop@hello.com</p>
+    <p>Phone: (515)289-2350</p>
+    <p>Address: 1370 SW Magazine Rd
+        Ankeny, IA 50023
+    </p>
+</div>
+
+</footer>
     
 </body>
 </html>
