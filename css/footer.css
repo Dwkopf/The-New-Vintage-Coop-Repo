@@ -9,7 +9,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #bdb291;
+  background-color: #bbbbba;
 }
 
 .flex-footer > div {
@@ -47,8 +47,9 @@
 }
 
 .footer-contact img {
-  height: 120px;
-  width: 120px;
+  min-height: 200px;
+  max-height: 220px;
+  max-width: 180px;
 }
 
 .footer-contact i {
@@ -63,4 +64,13 @@
 
 .rights-reserved {
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-nav-flex {
+    justify-content: space-around;
+  }
+  .footer-nav-flex .nav-link {
+    margin-left: 0;
+  }
 }

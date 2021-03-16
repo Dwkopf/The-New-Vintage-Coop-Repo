@@ -13,10 +13,11 @@ body {
 }
 
 .contact-head {
-  color: #A69B7B;
+  color: #2b5e3f;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 textarea {
@@ -108,13 +109,29 @@ textarea {
   color: red;
 }
 
-#honeypot {
-  display: hidden;
-}
-
 .confirmation-message {
   font-size: 1.2em;
   display: block;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #21ce21;
+}
+
+iframe {
+  width: 100%;
+}
+
+.button-wrap {
   margin: auto;
   text-align: center;
+}
+
+.button-wrap input {
+  border-radius: 20px;
+  padding: 10px;
+  letter-spacing: 1px;
+  background-color: white;
+  color: black;
+  margin-bottom: 15px;
+  font-family: roboto;
 }
