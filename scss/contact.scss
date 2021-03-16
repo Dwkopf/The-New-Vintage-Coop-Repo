@@ -138,3 +138,17 @@ iframe {
     margin-bottom: 15px;
     font-family: roboto;
   }
+
+@media only screen and (max-width: 500px) {
+    .contact-wrap {
+        width: 100%;
+    }
+
+    .flex-outer li input:not([type='checkbox']) {
+        padding: 5px;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}

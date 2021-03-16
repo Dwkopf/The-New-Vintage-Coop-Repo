@@ -17,7 +17,6 @@
 .floor-plan-content {
   width: 80vw;
   margin: 10px auto;
-  background-color: #f7f7f7;
   padding: 20px;
 }
 
@@ -111,5 +110,17 @@ a {
   }
   .floor-plan-display .view-floor {
     margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .fp-description {
+    min-width: 100%;
+  }
+  .floor-plan-display {
+    width: 90%;
+  }
+  .floor-plan-display .floor-plan {
+    width: 45%;
   }
 }
