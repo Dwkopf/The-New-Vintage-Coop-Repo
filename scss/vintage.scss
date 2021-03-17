@@ -74,11 +74,10 @@
             font-weight: bolder;
         }
 
-        h1 {
-            margin-left:2em;
+        h1 {     
             color:#A69B7B;
             font-family:roboto;
-            font-size: 4.0em;
+            font-size: 2.5em;
         }
 
         .center {
@@ -163,6 +162,11 @@
   @media only screen and (min-width: 768px) {
     .glow:hover, .glow:focus, .glow:active {
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .main-container h1 {
+        margin-left:2em;
+        font-size: 4em;
     }
 
     .scale {
