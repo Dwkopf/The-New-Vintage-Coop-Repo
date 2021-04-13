@@ -370,7 +370,7 @@
     <p>Friday - Sunday: Closed</p>
 
     <h2>Contact Information</h2>
-    <p>Email: vintagecoop@hello.com</p>
+    <p>Email: office@VintagePrairieTrail.com</p>
     <p>Phone: (515)289-2350</p>
     <p>Address: 1370 SW Magazine Rd
         Ankeny, IA 50023
