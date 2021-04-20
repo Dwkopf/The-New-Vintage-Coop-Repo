@@ -44,6 +44,8 @@ background-color: white;
     width:80%;
 }
 
+
+
 .main-container {
     width: 80vw;
     margin: auto;
@@ -55,6 +57,28 @@ background-color: white;
         border-radius: 20px;
         color:black;
     }
+
+    h2 {
+        text-align: center;
+        color: #2B5E3F;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+
+    h1 {
+        margin-left:2em;
+        color:#A69B7B;
+        font-family:roboto;
+        font-size: 4.0em;
+    }
+
+    .center {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+}
 
     h2 {
         text-align: center;
