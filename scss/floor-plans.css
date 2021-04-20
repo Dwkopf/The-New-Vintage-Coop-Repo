@@ -1,0 +1,152 @@
+.navbar {
+  border: 1px solid #dddddd;
+}
+
+.header-img {
+  width: 80vw;
+  margin: auto;
+  background-color: black;
+  z-index: -1;
+}
+
+.header-img img {
+  width: 100%;
+  max-height: 500px;
+}
+
+.floor-plan-content {
+  width: 80vw;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.fp-description {
+  max-width: 50%;
+  margin: 20px auto;
+  font-family: roboto;
+}
+
+.floor-plan-display {
+  width: 75%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.floor-plan-display .floor-plan {
+  background-color: #bfbbba;
+  width: 320px;
+  min-height: 350px;
+  margin: 20px 10px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.floor-plan-display .floor-plan-title {
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 5rem;
+  font-family: roboto;
+  letter-spacing: 1px;
+}
+
+.floor-plan-display .view-floor {
+  margin-top: 5rem;
+  padding: 10px;
+  font-family: roboto;
+  letter-spacing: 1px;
+  background-color: white;
+}
+
+.floor-plan-display .unit-specs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.square-feet {
+  width: 100%;
+}
+
+.floor-plan-amenities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+}
+
+.floor-plan-amenities > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 40%;
+          flex: 1 0 40%;
+  margin: 10px 0 0 5%;
+}
+
+a {
+  color: black;
+}
+
+.fp-services-title {
+  text-transform: uppercase;
+  color: black;
+  font-family: roboto;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fp-description {
+    min-width: 100%;
+  }
+  .floor-plan-display {
+    min-width: 100%;
+  }
+  .floor-plan-display .floor-plan {
+    min-width: 100%;
+  }
+  .floor-plan-display .view-floor {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .fp-description {
+    min-width: 100%;
+  }
+  .floor-plan-display {
+    width: 90%;
+  }
+  .floor-plan-display .floor-plan {
+    width: 45%;
+  }
+}
+/*# sourceMappingURL=floor-plans.css.map */
