@@ -49,7 +49,7 @@
             } else {
                 $preferredDate = "";
             }
-            
+
             if (isset($_POST['preferredTime'])) {
                 $preferredTime = htmlspecialchars($_POST['preferredTime']);
             } else {
@@ -78,7 +78,7 @@
                                       Virtual or in-person tour</h4>' . '<p>' . $tourStyle . '</p><h4>
                                       Tour Date</h4>' . '<p>' . $preferredDate . '</p><h4>
                                       Preferred Tour Time</h4>' . '<p>' . $preferredTime . '</p>';
-                            
+
 
                         $emailHeaders = "MIME-Version: 1.0" . "\r\n";
                         $emailHeaders .= "Content-Type: text/html; charset=UTF-8" . "\r\n";
@@ -89,10 +89,10 @@
                             $msg = "Your email has been sent, we will get back to you as soon as possible. Thanks!";
                         } else {
                             $msg = "Your email was not sent, please try again later";
-                        }                       
+                        }
                     }
             }   else {
-                
+
                 $msg = "";
             }
 ?>
@@ -140,14 +140,14 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavMobile">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link glow" href="index.html">HOME</a>
-                <a class="nav-item nav-link glow" href="coop.html">WHY CO-OPS?</a>
-                <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
-                <a class="nav-item nav-link glow" href="about.html">GALLERY</a>
-                <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
-                <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
-            </div>
+          <div class="navbar-nav">
+            <a class="nav-item nav-link glow" href="index.html">HOME</a>
+            <a class="nav-item nav-link glow" href="coop.html">WHY COOPERATIVE LIVING?</a>
+            <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
+            <a class="nav-item nav-link glow" href="about.html">FAQs</a>
+            <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
+            <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
+          </div>
         </div>
     </nav>
 
@@ -256,7 +256,7 @@
                     </li>
 
                 </ul>
-            
+
             </li>
 
         </ul> <!--END FLEX OUTER CLASS-->
@@ -280,7 +280,7 @@
                     </li>
 
                 </ul>
-                
+
                 <ul class="flex-inner">
 
                     <li>
@@ -304,7 +304,7 @@
                     </li>
 
                 </ul>
-                    
+
                 <label for="message" style="display: block;">Comments or Questions: <span class="form-required">*</span></label>
                 <textarea id="message" name="message"><?php echo $message ?></textarea><span class="<?php echo $msgClass ?>"><?php echo $messageError ?></span>
 
@@ -329,7 +329,7 @@
             <a class="nav-item nav-link glow" href="#">HOME</a>
             <a class="nav-item nav-link glow" href="#">WHY CO-OPS?</a>
             <a class="nav-item nav-link glow" href="#">THE NEIGHBORHOOD</a>
-           
+
         </div>
 
 
@@ -346,16 +346,16 @@
     <img src="img/PrairieTrail.png">
 
     <div class="contact-icons">
-        <a href="tel:+1-515-289-2530"><i class="fas fa-phone-alt"></i></a>
-        <a href="mailto: abc@example.com"><i class="fas fa-envelope"></i></a>
+              <a href="tel:+1-515-729-2040"><i class="fas fa-phone-alt"></i></a>
+              <a href="mailto: abc@example.com"><i class="fas fa-envelope"></i></a>
     </div>
 
     <div class="rights-reserved">
         <p>Copyright &#169;</i>
             <script>
-                let date = new Date(); 
+                let date = new Date();
                 document.write(date.getFullYear());
-           </script>   
+           </script>
            Vintage Cooperative of Prairie Trail - All Rights Reserved
         </p>
     </div>
@@ -371,13 +371,13 @@
 
     <h2>Contact Information</h2>
     <p>Email: vintagecoop@hello.com</p>
-    <p>Phone: (515)289-2350</p>
+    <p>Phone:  (515)-729-2040</p>
     <p>Address: 1370 SW Magazine Rd
         Ankeny, IA 50023
     </p>
 </div>
 
 </footer>
-    
+
 </body>
 </html>
