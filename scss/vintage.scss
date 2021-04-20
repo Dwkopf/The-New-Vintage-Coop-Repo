@@ -1,132 +1,141 @@
 
-    body {
-        margin:3em;
-        background-image:url("../img/texture.png");// texture
-        font-size: 1.4em;
+body {
+    margin:3em;
+    background-image:url("../img/texture.png");// texture
+    font-size: 1.4em;
+}
+
+.vcpt { // VCPT highlights
+    color:#8C8368;
+    font-weight: bolder;
     }
 
-    .vcpt {
-        color:#8C8368;
-        font-weight: bolder;
-      }
+.header {
+    display:none; // for mobile
+}
 
-    .header {
-        display:none;
-    }
+.centerList {
+    text-align:center;
+    list-style-type:none;
+}
 
-      .centerList {
-          text-align:center;
-          list-style-type:none;
-      }
+ol {
+    margin-left: 3em;
+}
 
-      ol {
-          margin-left: 3em;
-      }
+.pix img{
+border: 1px solid #8C8481;
+border-radius: 30px;
+margin:2em 1em;
+padding:.5em .5em .5em 2.5em;
+width:100%;
+box-shadow: 15px 15px 10px #aaaaaa;
+background-color: white;
+}
 
-      .pix img{
-        border: 1px solid #8C8481;
-        border-radius: 30px;
-        margin:2em 1em;
-        padding:.5em .5em .5em 2.5em;
-        width:100%;
-        box-shadow: 15px 15px 10px #aaaaaa;
-        background-color: white;
-      }
+.testimonial {
+    position:relative;
+    bottom:1em;       
+    z-index: 1;
+    border-radius: 100px;
+}
 
-      .testimonial {
-          position:relative;
-          bottom:1em;       
-          z-index: 1;
-          border-radius: 100px;
-      }
+.scale {
+    width:80%;
+}
 
-      .scale {
-          width:80%;
-      }
 
-      div.polaroid {
-        text-align: center;
-        width: auto;
-        margin:auto;
+
+.main-container {
+    width: 80vw;
+    margin: auto;
+    font-size: 1.4em;
+    button {
+        background-color:#BFBBBA ;
+        padding:1em 2em;
+        margin:1em;
         border-radius: 20px;
-        padding: 0em 1em 1em 1em;
-        border: 1px solid #BFBFBF;
-        background-color: #BFBBBA;
-        box-shadow: 10px 10px 5px #aaaaaa;
-        margin:0em 1em 3em 1em;
-      }
-
-    .main-container {
-        width: 80vw;
-        margin: auto;
-        font-size: 1.4em;
-        button {
-            background-color:#BFBBBA ;
-            padding:1em 2em;
-            margin:1em;
-            border-radius: 20px;
-            color:black;
-        }
-
-        h2 {
-            text-align: center;
-            color: #2B5E3F;
-            font-weight: bolder;
-            margin-top: 40px;
-        }
-
-        h1 {
-            margin-left:2em;
-            color:#A69B7B;
-            font-family:roboto;
-            font-size: 4.0em;
-        }
-
-        .center {
-            width: 100%;
-            display: block;
-            margin: auto;
-        }
+        color:black;
     }
 
-    .homeSpace {
-        margin-top:2em;
+    h2 {
+        text-align: center;
+        color: #2B5E3F;
+        font-weight: bolder;
+        margin-top: 40px;
     }
 
-    @font-face {
+    h1 {
+        margin-left:2em;
+        color:#A69B7B;
         font-family:roboto;
-        src:url(../fonts/Roboto-Black.ttf)
-    }
- 
-		 /* navbar styling */
-
-    .navbar-brand {
-        margin-right: 1em;
-
-        img {  // logo
-            max-height: 14vw;
-            position: relative;
-            top: -1em;
-            left: 2em;
-            z-index: 3;
-            }
+        font-size: 4.0em;
     }
 
-    .nav-link {
-        margin-left: 2em;
-        font-size: 1.1em;
-        color: #000000;
+    .center {
+        width: 100%;
+        display: block;
+        margin: auto;
     }
 
-    .navbar-toggler-icon {
-        background-color: lightgrey;
-        color: black;
-        height: 3em;
-        width:3em;
+}
+
+    h2 {
+        text-align: center;
+        color: #2B5E3F;
+        font-weight: bolder;
     }
 
+    h1 {     
+        color:#A69B7B;
+        font-family:roboto;
+        font-size: 2.5em;
+    }
 
- /* navbar hover style */
+    .center {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}//main-container
+
+.homeSpace {
+    margin-top:2em;
+}
+
+@font-face {
+    font-family:roboto;
+    src:url(../fonts/Roboto-Black.ttf)
+}
+
+        /* navbar styling */
+
+.navbar-brand {
+    margin-right: 1em;
+    img {  // logo
+        max-height: 14vw;
+        position: relative;
+        top: -1em;
+        left: 2em;
+        z-index: 3;
+        }
+}
+
+.nav-link {
+    margin-left: 2em;
+    font-size: 1.1em;
+    color: #000000;
+}
+
+.navbar-toggler-icon {
+    background-color: lightgrey;
+    color: black;
+    height: 3em;
+    width:3em;
+}
+
+
+/* navbar hover style */
 .glow {
     display: inline-block;
     vertical-align: middle;
@@ -137,21 +146,21 @@
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
-  }
+}
 
-  .bold {
-      font-weight: bolder;
-  }
+.bold {
+    font-weight: bolder;
+}
 
-  #magnify {
+#magnify {
     position: fixed;
     right: 3em;
     top: 5em;
-    display:none;
+    display:none; // for mobile
     z-index: 1;
-  }
+}
 
-  hr {
+hr {
     height:4px;
     color:black;
     background-color: black;
@@ -159,17 +168,22 @@
         width:80%;
         margin-left:10%
     }
-  }
+}
 
-  @media only screen and (max-width: 500px) {
-      .main-container h1 {
-          margin-left: 0.5em;
-      }
-  }
+@media only screen and (max-width: 500px) {
+    .main-container h1 {
+        margin-left: 0.5em;
+    }
+}
 
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .glow:hover, .glow:focus, .glow:active {
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+    .main-container h1 {
+        margin-left:2em;
+        font-size: 4em;
     }
 
     .scale {
@@ -184,7 +198,7 @@
         width:40%;
         box-shadow: 15px 15px 10px #aaaaaa;
         background-color: white;
-      }
+        }
 
     .navbar-brand img {
         max-height: 9vw;
@@ -194,7 +208,7 @@
     .header {
         display:block;
     }
-        #magnify {
-            display:block;
-        }    
-    }
+    #magnify {
+        display:block;
+    }    
+}// media query

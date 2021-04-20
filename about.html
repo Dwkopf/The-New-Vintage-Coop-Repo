@@ -40,9 +40,8 @@
 }
   </style>
 </head>
-
+ 
 <body>
-
   <nav class="navbar border navbar-expand-lg bg-light">
 
     <a class="navbar-brand" href="index.html"><img src="img/PrairieTrailResize.png"
@@ -58,147 +57,68 @@
         <a class="nav-item nav-link glow" href="index.html">HOME</a>
         <a class="nav-item nav-link glow" href="coop.html">WHY CO-OPS?</a>
         <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
-        <a class="nav-item nav-link glow" href="about.html">FAQs</a>
+        <a class="nav-item nav-link glow" href="about.html">GALLERY</a>
         <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
         <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
       </div>
     </div>
   </nav>
-
-  <div id="magnify">
-    <h2><button onclick="smaller()">-</button>
-    <img src="img/search2.png" alt="magnify glass image">
-    <button onclick="bigger()">+</button></h2>    
-  </div>
-
   
 <div class="main-container">
-  <h1 class="header">FAQs:</h1>
-  <img src="img/faqHeader.png" class = "center" alt = "Vintage Cooperative Image">
+  <h1 class="header">Gallery:</h1>
+  <!-- start carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner"><!--1280x450 images -->
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/faqHeader.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/galleryC2.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/galleryC1.png" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/home4.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!--End carousel -->
   
 
-  <div class="col-lg-12">
-        <h2>FREQUENTLY ASKED QUESTIONS</h2>
-  </div>
-
-  <div class="row" id="changeFont1">  
-    <div class="col-sm-6">
-
-        <p class="bold">Q. Why were Cooperative housing created?</p>
-            <p>A. Cooperatives were formed to meet the specific objectives of members and are subject to adapt to members changing needs. A housing cooperative is joint ownership in the homes, clubhouse and grounds in which all the members own a share collectively. Owned and governed by the members, the cooperative gives a unique opportunity to have a voice in the daily operations. In a maintenance-free, active lifestyle community, one is able to make time for the things that matter most.
-            </p>
-
-        <p class="bold">Q. How does a housing Cooperative work?</h4>
-          <p>A. Membership in a housing cooperative begins with a one-time payment that purchases a share in the cooperative. The cooperative holds the title to the entire property including the dwelling units, land, and common areas and assumes the mortgage, tax and other obligations necessary to finance and operate the facility. Members commit to a monthly charge to cover all expenses related to the operations of the cooperative.
-          </p>
-
-        <p class="bold">Q. Who decides the monthly payment dues?</p>
-            <p>A. The amount is decided on a democratic basis, governed by a Board of Directors comprised of and elected by members in the cooperative.
-            This member Board has the fiduciary and operational responsibility to carry out all the functions of the cooperative, including setting the amount of the monthly payments.
-            </p>
-
-        <p class="bold">Q. Will the value of my home appreciate?</p>
-            <p>A. SCHEDULED APPRECIATION:
-              <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> will use a scheduled appreciation, limiting appreciation of the share value, compounded annually. This practice is widely used by cooperatives to keep the units affordable overtime, therefore building lengthy waiting lists of prospective buyers and to promote ease of re-sale. The cooperative has the option to change the scheduled appreciation if they so choose.
-            </p>
-
-        <p class="bold">Q. Can I customize my home?</p>
-            <p>A. <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> offers a variety of standard and upgrade design options. Representatives of Vintage Cooperatives will work closely with members through the selection process and any special requests. Personal design selections for standard and upgrade options are available to buyers who purchase during the development phase and prior to construction deadlines..
-            </p>
-
-        <p class="bold">Q. Are there ways to title my Cooperative share?</p>
-            <p>A. TITLING MEMBERSHIP:
-            The cooperative will provide a way for its members to title their membership share to meet their estate planning needs. Single owner, joint tenants, trusts, transfer on death or a life estate are typical forms of holding title. Proceeds of sale would go to the member’s estate or heir(s), as indicated in their estate planning documents.</p>
-
-            <p>ELIGIBILITY:
-              <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> is an age-restricted community. All owners must qualify for membership by meeting the minimum age and income requirements..
-            </p>
-
-            <p>PERSONAL DESIGN CHOICES:
-              <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> offers a variety of standard and upgrade design options. Representatives of Vintage Cooperatives will work closely with members through the selection process and any special requests. Personal design selections for standard and upgrade options are available to buyers who purchase during the development phase and prior to construction deadlines.
-            </p>
-
-      </div>
-      
-      <div class="col-sm-6">
-        <p class="bold">Q. How is a Co-op structured financially?</p>
-          <p>A. MASTER MORTGAGE LOAN:
-          To reduce costs, <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> will use a federally insured master loan to finance the project, which assures a fixed low interest rate. The cooperative holds title to the property assuming mortgage and tax obligations, relieving members of direct liability; they simply agree to pay their monthly fee, which includes an allocated portion of the master loan, interest and taxes. Members retain tax deductions for mortgage interest, as well as real-estate taxes. Because of their not-for-profit nature, membership involvement, and shared services, cooperatives typically cost less to operate and experience the lowest default rate of any housing alternative.</p>
-
-          <p>SHARE PRICE:
-          This represents the difference between the total share value and the prorated portion of the cooperatives first mortgage loan. The share price is a percentage of the share value, which is repaid to the shareowner with appreciation on re-sale.</p>
-
-          <p>MONTHLY PAYMENT:
-          The monthly payment includes a proportionate share of the cooperatives master loan, real estate taxes, insurance, reserves, maintenance, professional management services and some utilities. A cost breakdown will be provided to each member before finalizing their purchase.</p>
-
-          <p class="bold">Q. How do I finance the purchase of my cooperative share?</p>
-          <p>A. INITIAL SHARE COSTS:
-          Since the initial share costs are low, a portion of the proceeds from the sale of your home is used to purchase a share in the cooperative, leaving the remainder of your equity to invest, save, or spend on personal enjoyments. The interest from investing equity can be used to pay a portion of the monthly fee, therefore reducing monthly living costs..</p>
-
-          <p>DEVELOPMENT PHASE:
-          During the development phase, buyers of a cooperative either use available funds or take out a short-term home equity loan to pay for their membership share until they have sold their current home. The interest on the home equity loan is tax deductible.</p>
-
-          <p class="bold">Q. How is maintenance handled?</p>
-          <p>A. Members with a maintenance need will call the office or the facility manager. If needed, an outside vendor is called to do the necessary repair work at the owners’ convenience. The invoice for the repair will come to the office. No hassles!
-          </p>
-
-          <p class="bold">Q. What are the resell procedures for a cooperative share?</p>
-          <p>A. RIGHT-TO-SELL
-          Re-sale process in a cooperative is handled internally by the on-site property management team to support you in your next move. To implement the Limited Equity Formula, the cooperative holds the first right-to-sell. The re-sale price of the membership share will equal the member’s original investment plus the amount appreciated under the Limited Equity formula. The cooperative has 60-90 days to market the cooperative share and transfer the sale. If the cooperative does not elect to transfer the share, the member may choose to continue to contract with the cooperative or may sell it on the open market to anyone who qualifies for membership. Re-sale of a cooperative share avoids the fees, title and recording costs associated with a typical real-estate transaction.
-
-          <p class="bold">Q. What does the monthly pay go towards?.</p>
-            <p>A. The monthly payment is used for the mortgage payment, real estate taxes, operating expenses, maintenance, heat, garbage cable and many other facilities to make living comfortable for members.
-            </p>
-          </p>
-      </div>
-
-  </div> 
-    <br><br><br><br>
-
-    <div class="pix row">
+    <div class="pix row"><!--600x400 images -->
       <img src="img/1.jpg" class="col-sm-6 col-md-5"alt="lawn">
-      <img src="img/12.jpg" class="col-sm-6 col-md-5" alt="lawn">
+      <img src="img/gallery3.jpg" class="col-sm-6 col-md-5" alt="lawn">
     </div>
 
-    <div class="col-lg-12">
-        <h2>AMENITIES AND FACILITIES</h2>
-    </div> 
-    <p id="changeFont4"><span class="vcpt">Vintage Cooperatives of Prairie Trail</span> offers the following facilities & amenities for its residence:
-
-    <div class="col-sm-6">
-      <p>
-        <ul id="changeFont2">
-          <li>Common area with equipped library and fireplace</li>
-          <li>Visitors' suit for guests, family and friends</li>
-          <li>Fitness center & gym</li>
-          <li>Gardening areas</li>
-          <li>Storage for bikes</li>
-          <li>Open kitchen with patio</li>
-          <li>Accessibility to Ankeny library and Theatre</li>
-          <li>Transportation services</li>
-        </ul>
-      </p>
-    </div> 
-
-    <div class="col-sm-6">
-      <p>
-        <ul id="changeFont3">
-          <li>Professional property management services</li>
-          <li>Fitness center & gym</li>
-          <li>Maintenance and housekeeping support</li>
-          <li>Onsite grocery store and cash machines</li>
-          <li>Underground parking with temperature control</li>
-          <li>Wheel chair accessible services</li>
-          <li>Security and surveyance cameras installed</li>
-          <li>Fire alarms and sprinkler services</li>
-        </ul>
-      </p>
+    <div class="pix row"><!--600x400 images -->
+      <img src="img/gallery2.png" class="col-sm-6 col-md-5"alt="lawn">
+      <img src="img/ducks.jpg" class="col-sm-6 col-md-5" alt="lawn">
     </div>
 
-    <div class="pix row">
-      <img src="img/14.jpg" class="col-sm-6 col-md-5"alt="lawn">
+    <div class="pix row"><!--600x400 images -->
+      <img src="img/gallery2.jpg" class="col-sm-6 col-md-5"alt="lawn">
       <img src="img/33.jpg" class="col-sm-6 col-md-5" alt="lawn">
     </div>
+
+    <div class="pix row">
+      <img src="img/ducks2.jpg" class="col-sm-6 col-md-5" alt="lawn">
+      <img src="img/14.jpg" class="col-sm-6 col-md-5"alt="lawn">
+    </div>
+
     <div class="row">
     <div class="col-lg-12">
         <h2>SECURED AND HEALTHY LIFESTYLE</h2>
@@ -233,6 +153,8 @@
 
       </div>
     </div>
+
+    <p class="text-center"><a href="contact.php"><button>Join us for a social event!</button></a></p>
   </div>  
 </div><!---class--end--container-->
 

@@ -129,14 +129,14 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md bg-light">
+    <nav class="navbar border navbar-expand-md bg-light">
 
         <a class="navbar-brand" href="index.html"><img src="img/PrairieTrailResize.png"
                 alt="Vintage Cooperative of Prairie Trail logo"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavMobile"
             aria-controls="navbarNavMobile" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fas fa-bars fa-3x"></i></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavMobile">
@@ -144,7 +144,7 @@
                 <a class="nav-item nav-link glow" href="index.html">HOME</a>
                 <a class="nav-item nav-link glow" href="coop.html">WHY CO-OPS?</a>
                 <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
-                <a class="nav-item nav-link glow" href="about.html">FAQs</a>
+                <a class="nav-item nav-link glow" href="about.html">GALLERY</a>
                 <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
                 <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
             </div>

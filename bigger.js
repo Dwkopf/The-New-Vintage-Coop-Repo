@@ -1,47 +1,28 @@
 
-    // function bigger() {
-    //   document.body.style.fontSize = larger;
-    // }
-    function bigger() {
-      //alert(document.querySelector("#changeFont1").style.fontSize);
+    function bigger() {     
+      var x=document.querySelectorAll("*[id^='changeFont']");
+      //alert(x.length);
+      var i=0;
       
-      if (document.querySelector("#changeFont1").style.fontSize  == "") 
+     
+      if (document.querySelector("*[id^='changeFont']").style.fontSize  == "") 
         {
-          document.querySelector("#changeFont1").style.fontSize = "1em";
-          document.querySelector("#changeFont2").style.fontSize = "1em";
-          document.querySelector("#changeFont3").style.fontSize = "1em";
-          document.querySelector("#changeFont4").style.fontSize = "1em";
-          document.querySelector("#changeFont5").style.fontSize = "1em";
-          document.querySelector("#changeFont6").style.fontSize = "1em";     
+          for (i=0;i<x.length;i++)
+            x[i].style.fontSize = "1em";
         }
-      document.querySelector("#changeFont1").style.fontSize = parseFloat(document.querySelector("#changeFont1").style.fontSize) +  0.2 + "em";
-      document.querySelector("#changeFont2").style.fontSize = parseFloat(document.querySelector("#changeFont2").style.fontSize) +  0.2 + "em";
-      document.querySelector("#changeFont3").style.fontSize = parseFloat(document.querySelector("#changeFont3").style.fontSize) +  0.2 + "em";
-      document.querySelector("#changeFont4").style.fontSize = parseFloat(document.querySelector("#changeFont4").style.fontSize) +  0.2 + "em";   
-      document.querySelector("#changeFont5").style.fontSize = parseFloat(document.querySelector("#changeFont5").style.fontSize) +  0.2 + "em";
-      document.querySelector("#changeFont6").style.fontSize = parseFloat(document.querySelector("#changeFont6").style.fontSize) +  0.2 + "em";  
+        for (i=0;i<x.length;i++)
+          x[i].style.fontSize = parseFloat(x[i].style.fontSize) + 0.2 + "em";
     }
 
     function smaller() {
-      if (document.querySelector("#changeFont1").style.fontSize == "") {
-        document.querySelector("#changeFont1").style.fontSize = "1em";
-        document.querySelector("#changeFont2").style.fontSize = "1em";
-        document.querySelector("#changeFont3").style.fontSize = "1em";
-        document.querySelector("#changeFont4").style.fontSize = "1em";
-        document.querySelector("#changeFont5").style.fontSize = "1em";
-        document.querySelector("#changeFont6").style.fontSize = "1em"; 
-      }
-      document.querySelector("#changeFont1").style.fontSize = parseFloat(document.querySelector("#changeFont1").style.fontSize) -  0.2 + "em";
-      document.querySelector("#changeFont2").style.fontSize = parseFloat(document.querySelector("#changeFont2").style.fontSize) -  0.2 + "em";
-      document.querySelector("#changeFont3").style.fontSize = parseFloat(document.querySelector("#changeFont3").style.fontSize) -  0.2 + "em";
-      document.querySelector("#changeFont4").style.fontSize = parseFloat(document.querySelector("#changeFont4").style.fontSize) -  0.2 + "em";
-      document.querySelector("#changeFont5").style.fontSize = parseFloat(document.querySelector("#changeFont5").style.fontSize) -  0.2 + "em";
-      document.querySelector("#changeFont6").style.fontSize = parseFloat(document.querySelector("#changeFont6").style.fontSize) -  0.2 + "em";  
+      var x=document.querySelectorAll("*[id^='changeFont']");
+      var i=0;
       
+      if (document.querySelector("*[id^='changeFont']").style.fontSize  == "") 
+        {
+          for (i=0;i<x.length;i++)
+            x[i].style.fontSize = "1em";
+        }
+        for (i=0;i<x.length;i++)
+          x[i].style.fontSize = parseFloat(x[i].style.fontSize) - 0.2 + "em"; 
     }
-
-
-    // function smaller() {
-    //   document.body.style.fontSize = smaller;
-    // }
- 
