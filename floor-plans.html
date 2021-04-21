@@ -26,6 +26,7 @@
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
 
+    <script src="bigger.js"></script>
     <link rel="stylesheet" type="text/css" href="css/vintage.css">
     <link rel="stylesheet" type="text/css" href="css/floor-plans.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -46,12 +47,18 @@
             <a class="nav-item nav-link glow" href="index.html">HOME</a>
             <a class="nav-item nav-link glow" href="coop.html">WHY COOPERATIVE LIVING?</a>
             <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
-            <a class="nav-item nav-link glow" href="about.html">FAQs</a>
+            <a class="nav-item nav-link glow" href="about.html">GALLERY</a>
             <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
             <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
         </div>
         </div>
       </nav>
+
+      <div id="magnify"><!-- ui for text adjust  -->
+        <h2><button onclick="smaller()">-</button>
+        <img src="img/search2.png" alt="magnify glass image">
+        <button onclick="bigger()">+</button></h2>
+      </div>
 
     <div class="main-container">
 
@@ -303,7 +310,7 @@
         <div class="floor-plan-amenities">
             <div>
                 <h3 class="fp-services-title">Common Areas | Community</h3>
-                <ul>
+                <ul id = "changeFont1">
                     <li>Great room with fireplace</li>
                     <li>Full serving kitchen</li>
                     <li>Outdoor patio</li>
@@ -318,7 +325,7 @@
 
             <div class="building-construction">
                 <h3 class="fp-services-title">Building | Construction Features</h3>
-                <ul>
+                <ul id="changeFont2">
                     <li>Centrally located elevator</li>
                     <li>Conveniently located refuse room and recycling bins on every floor</li>
                     <li>Indoor mail for pick-up, frop-off, and parcel lockers</li>
@@ -330,7 +337,7 @@
 
             <div class="building-services">
                 <h3 class="fp-services-title">Building | Services</h3>
-                <ul>
+                <ul id="changeFont3">
                     <li>Professional property management services</li>
                     <li>"While You're Away" vacation service</li>
                     <li>Indoor and outdoor maintenance</li>
@@ -340,7 +347,7 @@
 
             <div class="nearby-attractions">
                 <h3 class="fp-services-title">Nearby | Attractions</h3>
-                <ul>
+                <ul id="changeFont4">
                     <li>Home to Des Moines Area Community College (DMACC)</li>
                     <li>Within walking distance of "The District at Prairie Trail" (Entertainment District)</li>
                     <li>Public library</li>
@@ -370,13 +377,13 @@
 
                 <div class="footer-nav-links">
                     <a class="nav-item nav-link" href="index.html">HOME</a>
-                    <a class="nav-item nav-link" href="coop.html">WHY CO-OPS?</a>
+                    <a class="nav-item nav-link" href="coop.html">WHY COOPERATIVE LIVING?</a>
                     <a class="nav-item nav-link" href="newNeighbor.html">THE NEIGHBORHOOD</a>
 
                 </div>
 
                 <div class="footer-nav-links">
-                    <a class="nav-item nav-link" href="about.html">ABOUT US</a>
+                    <a class="nav-item nav-link" href="about.html">GALLERY</a>
                     <a class="nav-item nav-link" href="floor-plans.html">FLOOR PLANS</a>
                     <a class="nav-item nav-link" href="contact.php">CONTACT US</a>
                 </div>

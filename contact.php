@@ -144,7 +144,7 @@
             <a class="nav-item nav-link glow" href="index.html">HOME</a>
             <a class="nav-item nav-link glow" href="coop.html">WHY COOPERATIVE LIVING?</a>
             <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
-            <a class="nav-item nav-link glow" href="about.html">FAQs</a>
+            <a class="nav-item nav-link glow" href="about.html">Gallery</a>
             <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
             <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
           </div>
@@ -161,7 +161,7 @@
 
         <h1 class="contact-head">Contact Us</h1>
         <h4 class="contact-head">OR</h4>
-        <h3 class="contact-head">Call us now at <a href="tel:+1-515-289-2530">(515) 289-2530</a></h3>
+        <h3 class="contact-head">Call us now at <a href="tel:+1-515-729-2040">(515) 729-2040</a></h3>
 
         <span class="confirmation-message"><?php echo $msg ?></span>
 
@@ -326,18 +326,18 @@
     <div class="footer-nav-flex">
 
         <div class="footer-nav-links">
-            <a class="nav-item nav-link glow" href="#">HOME</a>
-            <a class="nav-item nav-link glow" href="#">WHY CO-OPS?</a>
-            <a class="nav-item nav-link glow" href="#">THE NEIGHBORHOOD</a>
+            <a class="nav-item nav-link" href="index.html">HOME</a>
+            <a class="nav-item nav-link" href="coop.html">WHY COOPERATIVE LIVING?</a>
+            <a class="nav-item nav-link" href="newNeighbor.html">THE NEIGHBORHOOD</a>
 
         </div>
-
 
         <div class="footer-nav-links">
-          <a class="nav-item nav-link glow" href="#">ABOUT US</a>
-            <a class="nav-item nav-link glow" href="#">FLOOR PLANS</a>
-            <a class="nav-item nav-link glow" href="#">CONTACT US</a>
+            <a class="nav-item nav-link" href="about.html">GALLERY</a>
+            <a class="nav-item nav-link" href="floor-plans.html">FLOOR PLANS</a>
+            <a class="nav-item nav-link" href="contact.php">CONTACT US</a>
         </div>
+
 
     </div>
 </div>
