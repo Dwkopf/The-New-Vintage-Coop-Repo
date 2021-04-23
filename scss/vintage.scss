@@ -23,22 +23,30 @@ ol {
     margin-left: 3em;
 }
 
+
 .pix img{
-border: 1px solid #8C8481;
-border-radius: 30px;
-margin:2em 1em;
-padding:.5em .5em .5em 2.5em;
-width:100%;
-box-shadow: 15px 15px 10px #aaaaaa;
-background-color: white;
+    border: 1px solid #8C8481;
+    border-radius: 30px;
+    margin:2em 0em;
+    padding:.5em .5em .5em 2.5em;
+    width:100%;
+    box-shadow: 15px 15px 10px #aaaaaa;
+    background-color: white;
 }
 
 .testimonial {
     position:relative;
     bottom:1em;       
     z-index: 1;
-    border-radius: 100px;
+    border-radius: 50px;
 }
+
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    margin: auto; 
+  }
 
 .scale {
     width:80%;
@@ -199,15 +207,10 @@ hr {
         width:25%;
     }
 
-    .pix img{
-        border: 1px solid #8C8481;
-        border-radius: 30px;
+    .pix img {
+        width: 40%;
         margin:2em 1em;
-        padding:.5em .5em .5em 2.5em;
-        width:40%;
-        box-shadow: 15px 15px 10px #aaaaaa;
-        background-color: white;
-        }
+      }
 
     .navbar-brand img {
         max-height: 9vw;
@@ -220,4 +223,4 @@ hr {
     #magnify {
         display:block;
     }    
-}// media query
+}

@@ -129,7 +129,7 @@
 </head>
 <body>
 
-    <nav class="navbar border navbar-expand-md bg-light">
+    <nav class="navbar border navbar-expand-lg bg-light">
 
         <a class="navbar-brand" href="index.html"><img src="img/PrairieTrailResize.png"
                 alt="Vintage Cooperative of Prairie Trail logo"></a>
@@ -144,7 +144,7 @@
             <a class="nav-item nav-link glow" href="index.html">HOME</a>
             <a class="nav-item nav-link glow" href="coop.html">WHY COOPERATIVE LIVING?</a>
             <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
-            <a class="nav-item nav-link glow" href="about.html">Gallery</a>
+            <a class="nav-item nav-link glow" href="about.html">GALLERY</a>
             <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
             <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
           </div>
@@ -347,7 +347,7 @@
 
     <div class="contact-icons">
               <a href="tel:+1-515-729-2040"><i class="fas fa-phone-alt"></i></a>
-              <a href="mailto: abc@example.com"><i class="fas fa-envelope"></i></a>
+              <a href="contact.php"><i class="fas fa-envelope"></i></a>
     </div>
 
     <div class="rights-reserved">
