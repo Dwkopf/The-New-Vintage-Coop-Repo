@@ -267,22 +267,6 @@
 
                 <ul class="flex-inner">
 
-                    <p class="label-p">Would you prefer an in-person or virtual tour?</p>
-
-                    <li>
-                        <input type="radio" name="tour-style" value="in-person" id="in-person">
-                        <label for="in-person">In-Person</label>
-                    </li>
-
-                    <li>
-                        <input type="radio" name="tour-style" value="virtual" id="virtual">
-                        <label for="virtual">Virtual</label>
-                    </li>
-
-                </ul>
-
-                <ul class="flex-inner">
-
                     <li>
                         <label for="preferredDate">Select Preferred Date</label>
                         <input type="date" name="preferredDate" id="preferredDate">
