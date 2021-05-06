@@ -103,6 +103,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for Vintage Cooperative of Prairie Trail">
+  <meta name = "keywords" content = "Cooperative, living, senior, freedom, contact, independent, visit, information, Vintage">
     <title>Contact Us</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
