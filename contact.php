@@ -64,7 +64,7 @@
 
             if($validForm) {
 
-                        $toEmail = 'contact@willyhedge.com';
+                        $toEmail = 'office@VintagePrairieTrail.com';
                         $subject = 'Contact form submission from '. $firstName . " " . $lastName;
                         $emailBody = '<h2>Contact Form Submission</h2>
                                       <h3>Name</h3><p>'. $firstName . ' ' . $lastName.'</p>
@@ -145,8 +145,8 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link glow" href="index.html">HOME</a>
             <a class="nav-item nav-link glow" href="coop.html">WHY COOPERATIVE LIVING?</a>
-            <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
-            <a class="nav-item nav-link glow" href="about.html">GALLERY</a>
+            <a class="nav-item nav-link glow" href="neighborhood.html">THE NEIGHBORHOOD</a>
+            <a class="nav-item nav-link glow" href="gallery.html">GALLERY</a>
             <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
             <a class="nav-item nav-link glow" href="contact.php">CONTACT US</a>
           </div>
@@ -314,12 +314,12 @@
         <div class="footer-nav-links">
             <a class="nav-item nav-link" href="index.html">HOME</a>
             <a class="nav-item nav-link" href="coop.html">WHY COOPERATIVE LIVING?</a>
-            <a class="nav-item nav-link" href="newNeighbor.html">THE NEIGHBORHOOD</a>
+            <a class="nav-item nav-link" href="neighborhood.html">THE NEIGHBORHOOD</a>
 
         </div>
 
         <div class="footer-nav-links">
-            <a class="nav-item nav-link" href="about.html">GALLERY</a>
+            <a class="nav-item nav-link" href="gallery.html">GALLERY</a>
             <a class="nav-item nav-link" href="floor-plans.html">FLOOR PLANS</a>
             <a class="nav-item nav-link" href="contact.php">CONTACT US</a>
         </div>
